@@ -128,6 +128,19 @@ filter: progid
 : DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
+@font-face {
+    font-family: 'Thirsty';
+    src: url('../font/ThirstyScriptMedium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.thirsty {
+	font-family: 'Thirsty';
+	color: rgb(202,32,37);
+}
+
 .banner {
 background: #ffffff; /* Old browsers */
 background: -moz-linear-gradient(top,  #ffffff 0%, #cbcbcb 100%); /* FF3.6+ */
