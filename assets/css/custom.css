@@ -1,0 +1,189 @@
+body {
+font-family: 'Roboto',sans-serif;
+color: rgb(99,110,120);
+}
+.container h4 {
+color: rgb(99,110,120);
+font-size: 50px;
+font-weight:300;
+line-height:100%;
+}
+
+.super-hero {
+min-height:400px;
+background-size: cover;
+background-position: right bottom;
+}
+
+.bg-tools {
+	background-image: url(../img/health_tools.jpg);
+}
+
+.bg-app {
+	background-image: url(../img/iphoneapp5.jpg); 
+}
+
+.rounded {
+border: 5px solid rgb(124,136,145);
+-webkit-border-radius: 19px;
+-khtml-border-radius: 19px;
+-moz-border-radius: 19px;
+border-radius: 19px;
+font-size: 20px;
+}
+
+.e1 {
+font-size: 27px;
+font-weight:100;
+color: black;
+}
+
+.red {
+color: rgb(202,32,37);
+}
+
+.e2 {
+font-size: 27px;
+font-weight:100;
+color: rgb(99,110,120);
+}
+.section {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+.header {
+padding-bottom: 200px;
+}
+.container {
+font-size: 17px;
+text-align: justify;
+line-height: 200%;
+}
+.primary {
+background-color: white;
+}
+.secondary {
+background-color: rgb(252,247,225);
+}
+.tertiary {
+background-color: rgb(89,111,130);
+}
+.mugshot {
+width: 90%;
+max-width: 200px;
+min-width: 150px;
+border: 10px solid white;
+display: block;
+}
+.blunt {
+padding: 0px;
+}
+.item {
+height: 360px;
+padding-top: 100px;
+padding-bottom: 100px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.carousel {
+margin-bottom: 0px;
+}
+.carousel h3, h4 {
+color: rgb(46,184,192);
+}
+.carousel h1 {
+color: white;
+text-shadow: 0px 2px 2px gray;
+}
+.carousel-control {
+position: absolute; /* already here */
+top: 50%;  /* Was top: 40% */
+}
+
+a {
+/*color: white;*/
+color: inherit;
+text-decoration: none;
+cursor: pointer;
+}
+a:hover {
+color: inherit;
+text-decoration: none;
+cursor: pointer;
+}
+.btn-primary {
+font-size: 23px;
+color: white;
+background-color: : #2eb9c0;
+background-image: -moz-linear-gradient(top, #2eb9c0, #2eb9c0);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2eb9c0),  to(#2eb9c0));
+background-image: -webkit-linear-gradient(top, #2eb9c0, #2eb9c0);
+background-image: -o-linear-gradient(top, #2eb9c0, #2eb9c0);
+background-image: linear-gradient(to bottom, #2eb9c0, #2eb9c0);
+background-repeat: repeat-x;
+filter: progid
+: DXImageTransform.Microsoft.gradient(startColorstr='#ff0096c5', endColorstr='#ff0054c5', GradientType=0);
+border-color: #2eb9c0 #2eb9c0 #2eb9c0;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+*
+background-color: #2eb9c0;
+filter: progid
+: DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+@font-face {
+    font-family: 'Thirsty';
+    src: url('../font/ThirstyScriptMedium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'NewCircle';
+	src: url('../font/NewCicleFina.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.thirsty {
+	font-family: 'Thirsty';
+	color: rgb(202,32,37);
+}
+
+.banner {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #cbcbcb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#cbcbcb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#cbcbcb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#cbcbcb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#cbcbcb 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#cbcbcb 100%); /* W3C */
+filter: progid
+: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cbcbcb',GradientType=0 ); /* IE6-9 */
+color: black;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.bubble {
+	border-radius: 15px;
+	background-color: rgb(99,110,120);
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-weight:100;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.thumbe {
+	border-style: none;
+	max-height: 350px;
+}
+
+.center { float: none; margin: 0 auto; text-align: center; display: block; width:auto; height:auto;}
